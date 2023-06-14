@@ -7,7 +7,7 @@ function palindrome(str){
 	for(let i=0; i<len; i++)
 		{
 			//check if first and last strings are same
-			if(string[i] !==string[len-1])
+			if(string[i] !==string[len-1-i])
 			{
 				return false;
 			}
